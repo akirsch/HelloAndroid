@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">18sp</dimen>
+    <dimen name="taglineSize">34sp</dimen>
+    <dimen name="iconPadding">20dp</dimen>
+    <dimen name="textPadding">22dp</dimen>
+    <dimen name="buttonPadding">16dp</dimen>
+    <dimen name="logo">140dp</dimen>
+    <dimen name="logoMargin">8dp</dimen>
+    <dimen name="taglineMargin">14dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="linearLeftMargin">16dp</dimen>
+    <dimen name="textLinearLeftMargin">24dp</dimen>
+    <dimen name="buttonMarginBottom">12dp</dimen>
+    <dimen name="adressPaddingBottom">12dp</dimen>
+    <dimen name="betweenLinePadding">2dp</dimen>
+    <dimen name="addressWidth">240dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+</resources>
