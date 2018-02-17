@@ -5,11 +5,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.helloandroid.MainActivity">
 
-
     <ImageView
         android:id="@+id/image"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/image_size"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="match_parent"
         android:contentDescription="@string/image_desc"
         android:scaleType="centerCrop"
         android:src="@drawable/online" />
@@ -18,8 +17,8 @@
         android:id="@+id/logo"
         android:layout_width="@dimen/logo"
         android:layout_height="@dimen/logo"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="@dimen/logoMargin"
+        android:layout_marginLeft="@dimen/dp_90"
+        android:layout_marginTop="@dimen/margin_16"
         android:contentDescription="@string/logo_desc"
         android:scaleType="centerCrop"
         android:src="@drawable/u_symbol" />
@@ -29,7 +28,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/logo"
-        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/dp_48"
+        android:layout_marginTop="@dimen/margin_16"
         android:contentDescription="@string/tagline_desc"
         android:src="@drawable/udacity_txt" />
 
@@ -38,20 +38,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/name_tag"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="@dimen/margin_16"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="@dimen/margin_16"
         android:fontFamily="@font/roboto"
         android:text="@string/tagline"
         android:textColor="@android:color/white"
         android:textSize="@dimen/taglineSize" />
 
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/image"
-        android:layout_marginLeft="@dimen/margin_24"
+        android:layout_marginLeft="@dimen/dp_48"
         android:layout_marginTop="@dimen/dp_48"
+        android:layout_toRightOf="@id/image"
         android:orientation="vertical">
 
         <TextView
@@ -85,8 +84,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginBottom="@dimen/margin_24"
+        android:layout_marginLeft="@dimen/dp_62"
+        android:layout_toRightOf="@id/image"
         android:orientation="horizontal">
 
         <ImageView

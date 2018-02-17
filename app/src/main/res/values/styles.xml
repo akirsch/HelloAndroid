@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -11,22 +11,16 @@
     <style name="IconTheme">
         <item name="android:layout_marginLeft">@dimen/margin_16</item>
         <item name="android:layout_marginRight">@dimen/margin_16</item>
-        <item name="android:layout_marginBottom">@dimen/margin_24</item>
     </style>
 
-    <style name="VerticalIconTheme">
-        <item name="android:paddingBottom">@dimen/iconPadding</item>
-        <item name="android:paddingTop">@dimen/iconPadding</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:scaleType">centerCrop</item>
-    </style>
 
     <style name="TxtTheme">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/textSize</item>
-        <item name="android:textColorLink">@android:color/white</item>
-        <item name="android:paddingBottom">@dimen/textPadding</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColorLink">@color/colorPrimaryDark</item>
+        <item name="android:drawablePadding">@dimen/margin_24</item>
+        <item name="android:layout_marginBottom">@dimen/margin_32</item>
     </style>
 
 

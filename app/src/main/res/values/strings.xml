@@ -4,4 +4,13 @@
     <string name="website">www.udacity.com</string>
     <string name="tagline">Learn. Think. Do.</string>
     <string name="address1">2465 Latham St Mountain View CA 94043</string>
+    <string name="logo_desc">The Udacity Logo</string>
+    <string name="image_desc">Image of someone working on a computer</string>
+    <string name="address_desc">Address Icon</string>
+    <string name="web_desc">Web Icon</string>
+    <string name="phone_desc">Phone Icon</string>
+    <string name="facebook_desc">Facebook Icon</string>
+    <string name="instagram_desc">Instagram Icon</string>
+    <string name="twitter_desc">Twitter Icon</string>
+    <string name="tagline_desc">The word Udacity</string>
 </resources>
